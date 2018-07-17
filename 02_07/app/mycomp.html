@@ -1,0 +1,5 @@
+<h2>{{ name }}</h2>
+<ul>
+  <li *ngFor="let day of days">{{ day }}</li>
+  <p *ngIf="isWeekend">We are closed</p>
+</ul>

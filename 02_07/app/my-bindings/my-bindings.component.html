@@ -1,0 +1,9 @@
+<hr />
+{{newname}}
+<br>
+<input type="text" [value]="name"/>
+<button (click)="changeTheName()">Change name</button>
+<ul>
+  <li *ngFor="let day of days">{{ day }}</li>
+  <p *ngIf="isWeekend">We are closed</p>
+</ul>
