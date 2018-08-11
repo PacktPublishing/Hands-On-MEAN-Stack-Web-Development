@@ -1,0 +1,6 @@
+voilet 
+blue
+green
+yellow
+orange 
+red
